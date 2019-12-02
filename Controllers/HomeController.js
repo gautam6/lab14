@@ -14,6 +14,7 @@ exports.Index = async function(request, response){
 };
 
 // Extract contents from a POST request.
+//Comment
 exports.ReceiveForm = async function(request, response){
     let store    = request.body.retailStore;
     let day      = request.body.dayOfWeek;
